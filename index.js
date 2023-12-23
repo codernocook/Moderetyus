@@ -13,7 +13,7 @@ const trainingData = {
 // Main function
 const moderateText = (text_requested) => {
     // Parse message
-    const text = text_requested?.toString().toLowerCase().replaceAll(" ", "");
+    const text = text_requested?.toString().toLowerCase().replaceAll(" ", "").replaceAll(".", "");
 
     // Check for NSFW text
     const nsfwKeywords = trainingData["nsfw"];
@@ -91,7 +91,7 @@ const moderateText = (text_requested) => {
     const rude_detector = Object.keys(rudeKeywords).find(keyword => text?.toString().toLowerCase().includes(keyword));
     if (rude_detector) {
         return {
-            "server_message": "personal_information_leaking",
+            "server_message": "rude_message",
             "server_message_detail": rudeKeywords[rude_detector],
             "user_message": text_requested,
             "message": "Content flagged: Rude language"
