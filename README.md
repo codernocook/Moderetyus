@@ -1,5 +1,6 @@
 # Moderetyus
 - Moderation AI by Itzporium.
+- Please star this Github Repo. Thanks for visiting!
 
 # How to use
 `index.js` file is for the main file.
@@ -33,5 +34,5 @@ suicide.json: Encourage suicide, and self-harm.
     "server_message_detail": "message_break_rule...",// Explain detail if someone use this for reporting, so you can just ban your user, and explain reason. Reason here is writing for machine. You have to write by your own.,
     "user_message": text_requested, // The user's message
     "message": "Content flagged: ..." // Message return if you want for a clear view for the moderator or admin.
-};
+}
 ```
