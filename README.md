@@ -3,14 +3,8 @@
 - Please star this Github Repo. Thanks for visiting!
 
 # How to use
-`index.js` file is for the main file.
-Use `index.js` at last line, there's "Example usage" comment. Uncomment all the think below,
-or Copy this and paste:
-```js
-const userInput = "Hello world";
-const result = moderateText(userInput);
-console.log(result);
-```
+`index.js` file is for demo, and test.
+`general_model` now is the first model, require it and call the moderateText function to check the message.
 
 You can use with rest API like expressjs to host!
 
