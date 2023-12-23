@@ -11,6 +11,22 @@ Some moderation models are:
 `strict` is strict, recommend for the user < 13 years old
 
 You can use with rest API like expressjs to host!
+If you want to host, start "express_server.js" by running:
+```sh
+node index.js
+```
+
+To use send post request to https://{yourServer}/api/moderation/
+
+POST this:
+```json
+{
+	"message": "Hello world",
+	"aiType": "strict"
+}
+```
+
+Replace "Hello world" with text, there are three ai type, I mentioned it in #How to use.
 
 # How to train?
 - Go to path `trainingData`
