@@ -11,7 +11,7 @@ Some moderation models are:
 `strict` is strict, recommend for the user < 13 years old.
 
 You can use with rest API like expressjs to host!\
-My server hosted CodeSandbox, if you want to try: https://hzjr53-3000.csb.app/
+My server hosted CodeSandbox, if you want to try: https://7pt93c-3000.csb.app/
 
 If you want to host, start "express_server.js" by running:
 ```sh
