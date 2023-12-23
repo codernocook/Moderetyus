@@ -18,5 +18,7 @@
     "urlocationis": "leaking_information_real_life_address",
     "yourlocationin": "leaking_information_real_life_address",
     "urlocationin": "leaking_information_real_life_address",
-    "address": "leaking_information_real_life_address"
+    "address": "leaking_information_real_life_address",
+    "youripaddr": "leaking_information_ip",
+    "uripaddr": "leaking_information_ip"
 }

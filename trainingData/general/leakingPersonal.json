@@ -9,5 +9,7 @@
     "workaddress": "leaking_information_real_life_address",
     "address": "leaking_information_real_life_address",
     "phone": "leaking_information_phone",
-    "email": "leaking_information_email"
+    "email": "leaking_information_email",
+    "youripaddr": "leaking_information_ip",
+    "uripaddr": "leaking_information_ip"
 }

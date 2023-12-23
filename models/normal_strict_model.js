@@ -47,7 +47,7 @@ module.exports = {
         }
       
         // Check for IP address leaking
-        if (/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/.test(text)) {
+        if (/\b(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\b/.test(text_requested?.toString().toLowerCase().replaceAll(" ", "").replaceAll("_", "").replaceAll("-", "").replaceAll("+", "").replaceAll("=", ""))) {
             return {
                 "server_message": "personal_information_leaking",
                 "server_message_detail": "leaking_information_ip",
