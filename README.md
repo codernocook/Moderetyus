@@ -4,18 +4,24 @@
 
 # How to use
 `index.js` file is for demo, and test.\
-`general_model` now is the first model, require it and call the moderateText function to check the message.
+
+Some moderation models are:
+`general_model` is now the first model; require it and call the moderateText function to check the message.
+`normal_strict` is a bit strict, recommend for the user in the range of 13 - 17 years old
+`strict` is strict, recommend for the user < 13 years old
 
 You can use with rest API like expressjs to host!
 
 # How to train?
 - Go to path `trainingData`
+- Each model with have its name.
+- You can create new folder and train it.
 - All files with its meaning:\
 **age.json**: Detect message leaking ages.\
 **illegal_activites.json**: Detect message is illegal, like selling drugs, or scamming people.\
 **leakingPersonal.json**: leaking personal information like IP address, house/home address, phone number, etc.\
 **rude.json**: Rude message that causes negative impact.\
-**suicide.json**: Encourage suicide, and self-harm.
+**suicide.json**: Encourage suicide and self-harm.
 
 > [!WARNING]
 > All the training data inside these json data, must not have any space, and no uppercase allowed (Example: "I like this", must be: "ilikethis").
