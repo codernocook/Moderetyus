@@ -17,10 +17,10 @@ You can use with rest API like expressjs to host!
 # How to train?
 - Go to path `trainingData`
 - All files with its meaning:
-age.json: Detect message leaking ages.
-illegal_activites.json: Detect message is illegal, like selling drugs, or scamming people.
-leakingPersonal.json: leaking personal information like IP address, house/home address, phone number, etc.
-rude.json: Rude message that causes negative impact.
+age.json: Detect message leaking ages.\
+illegal_activites.json: Detect message is illegal, like selling drugs, or scamming people.\
+leakingPersonal.json: leaking personal information like IP address, house/home address, phone number, etc.\
+rude.json: Rude message that causes negative impact.\
 suicide.json: Encourage suicide, and self-harm.
 
 > [!WARNING]
