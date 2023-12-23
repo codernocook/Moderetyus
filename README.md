@@ -3,7 +3,7 @@
 - Please star this Github Repo. Thanks for visiting!
 
 # How to use
-`index.js` file is for demo, and test.
+`index.js` file is for demo, and test.\
 `general_model` now is the first model, require it and call the moderateText function to check the message.
 
 You can use with rest API like expressjs to host!
