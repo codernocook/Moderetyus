@@ -1,5 +1,5 @@
 // Training data
-const trainingData_path = "../trainingData/general";
+const trainingData_path = "../trainingData/strict";
 const trainingData = {
     "nsfw": require(`${trainingData_path}/nsfw.json`),
     "age": require(`${trainingData_path}/age.json`),
