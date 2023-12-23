@@ -3,14 +3,16 @@
 - Please star this Github Repo. Thanks for visiting!
 
 # How to use
-`index.js` file is for demo, and test.\
+`index.js` file is for demo, and test.
 
 Some moderation models are:
-`general_model` is now the first model; require it and call the moderateText function to check the message.
-`normal_strict` is a bit strict, recommend for the user in the range of 13 - 17 years old
-`strict` is strict, recommend for the user < 13 years old
+`general_model` is now the first model; require it and call the moderateText function to check the message.\
+`normal_strict` is a bit strict, recommend for the user in the range of 13 - 17 years old.\
+`strict` is strict, recommend for the user < 13 years old.
 
-You can use with rest API like expressjs to host!
+You can use with rest API like expressjs to host!\
+My server hosted CodeSandbox, if you want to try: https://hzjr53-3000.csb.app/
+
 If you want to host, start "express_server.js" by running:
 ```sh
 node index.js
