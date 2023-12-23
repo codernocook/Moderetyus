@@ -24,5 +24,7 @@
     "mothafucking": "rude_keyword",
     "mothafuckin": "rude_keyword",
     "mofo": "rude_keyword",
-    "mfs": "rude_keyword"
+    "mfs": "rude_keyword",
+    "retard": "offensive_keyword",
+    "retd": "offensive_keyword"
 }

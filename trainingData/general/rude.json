@@ -12,5 +12,7 @@
     "dickhead": "rude_keyword",
     "fucker": "rude_keyword",
     "bastard": "rude_keyword",
-    "bast": "rude_keyword"
+    "bast": "rude_keyword",
+    "retard": "offensive_keyword",
+    "retd": "offensive_keyword"
 }

@@ -5,6 +5,8 @@
     "killyourself": "encourage_self_harm",
     "self-harm": "encourage_self_harm",
     "selfharm": "encourage_self_harm",
+    "cutmyself": "self_harm",
+    "cutmys": "self_harm",
     "endmylife": "self_harm",
     "killmyself": "self_harm",
     "takemyownlife": "self_harm",
@@ -20,5 +22,11 @@
     "unalivemyself": "self_harm",
     "unalivemself": "self_harm",
     "unaliveyourself": "encourage_self_harm",
-    "unaliveurself": "encourage_self_harm"
+    "unaliveurself": "encourage_self_harm",
+    "hangmyself": "self_harm",
+    "hangmaself": "self_harm",
+    "hanghimself": "encourage_self_harm",
+    "hangherself": "encourage_self_harm",
+    "hangyourself": "encourage_self_harm",
+    "hangurself": "encourage_self_harm"
 }

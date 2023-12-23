@@ -22,5 +22,11 @@
     "unalivemyself": "self_harm",
     "unalivemself": "self_harm",
     "unaliveyourself": "encourage_self_harm",
-    "unaliveurself": "encourage_self_harm"
+    "unaliveurself": "encourage_self_harm",
+    "hangmyself": "self_harm",
+    "hangmaself": "self_harm",
+    "hanghimself": "encourage_self_harm",
+    "hangherself": "encourage_self_harm",
+    "hangyourself": "encourage_self_harm",
+    "hangurself": "encourage_self_harm"
 }
