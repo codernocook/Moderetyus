@@ -37,5 +37,8 @@
     "b00bs": "rude_keyword",
     "breast": "rude_keyword",
     "retard": "offensive_keyword",
-    "retd": "offensive_keyword"
+    "retd": "offensive_keyword",
+    "hityouintheface": "rude_keyword",
+    "hituintheface": "rude_keyword",
+    "fattyass": "rude_keyword"
 }
