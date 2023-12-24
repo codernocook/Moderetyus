@@ -10,7 +10,9 @@
     "endmylife": "self_harm",
     "killmyself": "self_harm",
     "takemyownlife": "self_harm",
-    "suicidalthoughts": "self_harm",                
+    "takemyyourlife": "self_harm",
+    "takemyurlife": "self_harm",
+    "suicidalthoughts": "self_harm",
     "suicideattempt": "self_harm",
     "suicidalideation": "encourage_self_harm",
     "Iwanttodie": "self_harm",
@@ -28,5 +30,16 @@
     "hanghimself": "encourage_self_harm",
     "hangherself": "encourage_self_harm",
     "hangyourself": "encourage_self_harm",
-    "hangurself": "encourage_self_harm"
+    "hangurself": "encourage_self_harm",
+    "diemyself": "self_harm",
+    "diemysel": "self_harm",
+    "diemaself": "self_harm",
+    "dieyourself": "encourage_self_harm",
+    "dieyoursel": "encourage_self_harm",
+    "dieurself": "encourage_self_harm",
+    "dieursel": "encourage_self_harm",
+    "dieherself": "encourage_self_harm",
+    "diehersel": "encourage_self_harm",
+    "diehimself": "encourage_self_harm",
+    "diehimsel": "encourage_self_harm"
 }

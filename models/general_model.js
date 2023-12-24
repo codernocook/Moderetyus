@@ -27,6 +27,18 @@ const trainingData = {
     "leakingPersonal": require(`${trainingData_path}/leakingPersonal.json`),
 }
 
+// NumberExtractor
+const extractNumber = (inputText) => {
+    const inputArray = inputText?.toString().split();
+    let number_sum = {};
+
+    inputArray.forEach((el) => {
+        if (isNaN(el) === false && Number(el) !== NaN) {
+            number_sum
+        }
+    })
+};
+
 // Main function
 module.exports = {
     "moderateText": (text_requested) => {
@@ -34,12 +46,16 @@ module.exports = {
         const text = text_requested?.toString().toLowerCase().replaceAll(" ", "").replaceAll(".", "").replaceAll("_", "").replaceAll("-", "").replaceAll("+", "").replaceAll("=", "");
       
         // Check for underage users
+        const ageKeywords = trainingData["age"];
+        const age_detector = Object.keys(ageKeywords).find(keyword => text?.toString().toLowerCase().includes(keyword));
         const ageRequirement = 13;
-        const ageMatch = text.match(/\b\d+\b/);
-        if (ageMatch && parseInt(ageMatch[0]) < ageRequirement) {
+        console.log(text)
+        console.log(extractNumber(text))
+        console.log(parseInt(extractNumber(text)) < ageRequirement)
+        if (extractNumber(text) && parseInt(extractNumber(text)) < ageRequirement && age_detector) {
             return {
                 "server_message": "underage_message",
-                "server_message_detail": "underage_message",
+                "server_message_detail": ageKeywords[age_detector],
                 "user_message": text_requested,
                 "detected_word": text_requested,
                 "message": `Content flagged: Underage (Age: ${ageMatch[0]})`
